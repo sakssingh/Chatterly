@@ -26,6 +26,7 @@ import { ChatState } from "../../context/ChatProvider";
 import ChatLoading from "../ChatLoading";
 import UserListItem from "./listItems/UserListItem";
 
+// added test comment
 const NavBar = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [search, setSearch] = useState("");
